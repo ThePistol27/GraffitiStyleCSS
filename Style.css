@@ -1,0 +1,41 @@
+/* Graffiti-style container */
+.graffiti-box {
+    font-family: 'Permanent Marker', cursive; /* Google font for a graffiti look */
+    color: #e63946; /* Vibrant red text */
+    font-size: 2.5em; /* Large font size */
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 20px;
+    background: #1d3557; /* Dark blue background */
+    border: 5px solid #457b9d; /* Light blue border */
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px #f4a261, -5px -5px 0px #e9c46a; /* Dual-colored shadow */
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for graffiti-style container */
+.graffiti-box:hover {
+    transform: scale(1.05) rotate(-2deg); /* Slight rotation and scale on hover */
+    box-shadow: 10px 10px 0px #f4a261, -10px -10px 0px #e9c46a;
+}
+
+/* Graffiti-style button */
+.graffiti-button {
+    font-family: 'Permanent Marker', cursive;
+    color: #ffffff;
+    background-color: #e63946;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px #1d3557, -3px -3px 0px #457b9d;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.graffiti-button:hover {
+    background-color: #f77f00;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 0px #1d3557, -5px -5px 0px #457b9d;
+}
